@@ -1,0 +1,51 @@
+header{
+    font-family: 'Noto Serif JP', serif;
+}
+
+body{
+    background: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.pinnedTopLeft{
+    background: transparent;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.site_name{
+    width: 200px;
+    height: 56px;
+}
+
+.logo {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 800;
+    color: #393636;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.logo:hover {
+    color: #C1593A;
+}
+
+a{
+    color: #393636;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #C1593A;
+    text-decoration: none;
+}
+
+#header_wrapper{
+    background: #F0BE65;
+}

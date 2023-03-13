@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <!--what does this do?? still don't really understand-->
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="en">
 
 	<!--the header tag is a "container for metadata" = data about the data in the page-->
 	<head>
@@ -9,31 +9,46 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
 		<meta name="generator" content="distill" />
-		<title>kayla hendrickson</title>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Noto+Serif+JP:wght@400;600&display=swap" rel="stylesheet">
+		<title> kayla hendrickson | website & blog </title>
+		<meta name="description" content="kayla hendrickson is an engineer & data scientist"/>
 	</head>
 
 
 
 	<!--main contents of the page-->
 	<body>
+		<div id="site_container"></div>
 
-		<header>
-			<nav>
-				<a href="index.html">kayla hendrickson</a>
-				<a href="about.html">about.</a>
-				<a href="dataviz.html">data viz.</a>
-				<a href="uxdesign.html">ux. design</a>
-				<a href="learningblog.html">the next adventure.</a>
-				<a href="climbingpage.html">off the clock.</a>
-			</nav> 
+		<!--site header-->
+		<header id="header_wrapper" class="header_wrapper">
+			<div id ="pinnedTopLeft" class="pinnedTopLeft">
+				<div class ="site_name">
+					<a href="index.html"> 
+						<span class="logo">kayla hendrickson</span> 
+					</a>
+				</div>
+			</div>
+			
+			<div id = "pinnedTopRight" class="pinnedTopRight">
+				<a href="work.html">work.</a>
+			</div>
 
+			<div id = "pinnedMiddleRight" class="pinnedMiddleRight">
+				<div>
+					<a href="about.html">about.</a>
+				</div>
+			</div>
 		</header>	
 		
 		
 		<p>engineer & data scientist</p>
 		<p>fights poverty & pathogens</p>
 
-		<img src="img/flower_selfie.jpg" width="50%"/>
+		<img src="img/flower_selfie.jpg" width="30%"/>
 
 		<h2>I'm a second year master's student at the Duke Global Health Institute.</h2>
 		<p>My research interests include:</p>
@@ -44,7 +59,7 @@
 			<li>Creating relatable visual and written communication for the dissemination of health data</li>
 		</ul>
 
-	<img src="img/kenya.jpg" width="50%"/>
+	<img src="img/kenya.jpg" width="30%"/>
 
 		<h4>Why this site is janky?</h4>
 		<p>I'm currently building this website hosted on GitHub Pages. I'm a web dev novice, but 
@@ -54,6 +69,13 @@
 		<p>As such, it's pretty crappy right now. The exciting part is it changes almost every day.</p>
 
 		<p>If you want to know: I started on March 11, 2023. </p>
+
+
+		<footer>
+			<div id = "pinnedMiddleBottom" class="pinnedMiddleBottom">
+				<a href="contact.html">contact.</a>
+			</div>
+		</footer>
 	</body>
 
 
