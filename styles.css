@@ -1,13 +1,46 @@
 header{
+    background: white;
     font-family: 'Noto Serif JP', serif;
+    font-size: 12px;
 }
 
 body{
     background: white;
     font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
 }
 
-.pinnedTopLeft{
+div {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+#site_container {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    position: relative;
+}
+
+#background_transition {
+    --transition-duration: 700ms;
+}
+
+#background_color {
+    position: absolute;
+    background: #F0BE65;
+    height: 100%;
+    width:100%;
+    top:0;
+}
+
+.pinned{
     background: transparent;
     border: 0;
     margin: 0;
@@ -16,36 +49,59 @@ body{
     vertical-align: baseline;
 }
 
-.site_name{
-    width: 200px;
+#site_name{
+    width: 184px;
     height: 56px;
+    position: relative;
+}
+
+.logo_container {
+    position: absolute;
+    right: 0;
+    bottom:0;
 }
 
 .logo {
-    font-family: 'Noto Serif JP', serif;
-    font-weight: 800;
+    font-family: "Noto Serif JP", serif;
+    font-size: 1.6em;
     color: #393636;
-    bottom: 0;
+}
+
+.content_tier1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 80%;
     left: 0;
-    position: absolute;
-    right: 0;
+    margin-top: 50px;
+    position: fixed;
     top: 0;
+    width: 100%;
 }
 
-.logo:hover {
-    color: #C1593A;
+#nav1 {
+    height: 44px;
+    width: 61px;
+    position: absolute;
+    right:0;
 }
 
-a{
-    color: #393636;
-    text-decoration: none;
+#nav_background {
+    background: #90CFB9;
+    width: 68px;
+    height: 100%;
+    position: absolute;
+    right:0;
 }
 
-a:hover{
-    color: #C1593A;
-    text-decoration: none;
+#nav2 {
+    height: 44px;
+    width: 61px;
+    position: absolute;
+    right:0;
 }
+
 
 #header_wrapper{
-    background: #F0BE65;
+    background: transparent;
 }

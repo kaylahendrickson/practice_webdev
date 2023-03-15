@@ -9,6 +9,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
 		<meta name="generator" content="distill" />
+		<link rel="stylesheet" type="text/css" href="bootstrap.css"/>
 		<link rel="stylesheet" type="text/css" href="styles.css"/>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,28 +22,44 @@
 
 	<!--main contents of the page-->
 	<body>
-		<div id="site_container"></div>
+		<div id="site_container" class="container">
 
-		<!--site header-->
-		<header id="header_wrapper" class="header_wrapper">
-			<div id ="pinnedTopLeft" class="pinnedTopLeft">
-				<div class ="site_name">
-					<a href="index.html"> 
-						<span class="logo">kayla hendrickson</span> 
-					</a>
+		<!--top left button-->
+			<div id="background_transition">
+				<div id="background_color">
+
 				</div>
 			</div>
-			
-			<div id = "pinnedTopRight" class="pinnedTopRight">
-				<a href="work.html">work.</a>
-			</div>
 
-			<div id = "pinnedMiddleRight" class="pinnedMiddleRight">
-				<div>
-					<a href="about.html">about.</a>
+			<!--site header-->
+			<header id="header_wrapper" class="header_wrapper">
+				<div id ="pinnedTopLeft" class="pinned">
+					<div id="site_name" class="col-md-3">
+						<div class="logo_container">
+							<a class="logo" href="index.html"> 
+								<span id="logo_text">kayla hendrickson</span> 
+							</a>
+						</div>
+					</div>
 				</div>
-			</div>
-		</header>	
+				
+				<div id = "pinnedTopRight" class="pinned">
+					<div class="content_tier1">
+						<div id="nav1" class="my_nav">
+							<a href="work.html">work.</a>
+						</div>
+					</div>
+				</div>
+
+				<div id = "pinnedMiddleRight" class="pinned">
+					<div id="nav_background"> 
+
+					</div>
+					<div id="nav2">
+						<a href="about.html">about.</a>
+					</div>
+				</div>
+			</header>	
 		
 		
 		<p>engineer & data scientist</p>
@@ -76,6 +93,8 @@
 				<a href="contact.html">contact.</a>
 			</div>
 		</footer>
+
+	</div>
 	</body>
 
 
