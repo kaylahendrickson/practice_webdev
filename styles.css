@@ -8,6 +8,7 @@ body{
     background: white;
     font-family: 'Noto Sans', sans-serif;
     font-size: 12px;
+    margin:0;
 }
 
 div {
@@ -28,6 +29,11 @@ a {
     position: relative;
 }
 
+#main_content {
+    margin: 0 auto;
+    min-height: 100%;
+}
+
 #background_transition {
     --transition-duration: 700ms;
 }
@@ -44,6 +50,17 @@ a {
     padding: 0;
 }
 
+#header_wrapper{
+    background: transparent;
+    position: relative;
+    left:0;
+    margin-left: 0;
+    width: 100%;
+    min-width: 980px;
+    height: 130px;
+    grid-area: 1/1/2/2;
+}
+
 .pinned{
     background: transparent;
     border: 0;
@@ -51,11 +68,12 @@ a {
     outline: 0;
     padding: 0;
     vertical-align: baseline;
+    height:0;
 }
 
 #site_name{
-    width: 184px;
-    height: 56px;
+    width: 200px;
+    height: 102px;
     position: relative;
 }
 
@@ -66,8 +84,8 @@ a {
 }
 
 .logo {
-    font-family: "Noto Serif JP", serif;
-    font-size: 1.6em;
+    font-family: 'Righteous', cursive;
+    font-size: 26px;
     color: #393636;
 }
 
@@ -106,6 +124,3 @@ a {
 }
 
 
-#header_wrapper{
-    background: transparent;
-}
