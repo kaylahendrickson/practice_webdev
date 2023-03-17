@@ -40,7 +40,7 @@ a {
 
 #background_color {
     position: absolute;
-    background: #F0BE65;
+    background: #90CFB9;
     height: 100%;
     width:100%;
     top:0;
@@ -107,32 +107,38 @@ a {
     right:0;
     transform: rotate(90deg);
     justify-self: end;
-    align-self: start;
     position: absolute;
-    grid-area: 1 / 1 / 2 / 2;
     pointer-events: auto;
     z-index: 100;
-    margin-right: 11.5px;
+    margin-right: 24px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+
+#nav_background {
+    
+    background: #F0BE65;
+    justify-self: end;
+    align-self: center;
+    position: absolute;
+    width: 88px;
+    height: 100%;
+    right:0;
+    z-index: -1;
 }
 
 #nav1 {
     margin-top: 60.5px;
 }
 
-#nav_background {
-    background: #90CFB9;
-    justify-self: end;
-    align-self: center;
-    position: absolute;
-    grid-area: 1/1/2/2;
-    width: 68px;
-    height: 100%;
-    right:0;
-    z-index: -1;
+#nav2 {
+    margin-top: 320px;
 }
 
-#nav2 {
-    margin-bottom: 136px;
+#nav3 {
+    margin-top: 580px;
 }
 
 #page_container {
