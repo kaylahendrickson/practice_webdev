@@ -40,7 +40,7 @@ a {
 
 #background_color {
     position: absolute;
-    background: #90CFB9;
+    background: #E68FC1;
     height: 100%;
     width:100%;
     top:0;
@@ -198,5 +198,18 @@ a {
     margin-left: 500px; 
 }
 
+.section_wrapper {
+    left:0;
+    width: 100%;
+    margin-left:0;
+    position: relative;
+}
+
+#tier2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left:0;
+}
 
 
