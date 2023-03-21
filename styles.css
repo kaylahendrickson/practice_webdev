@@ -40,7 +40,7 @@ a {
 
 #background_color {
     position: absolute;
-    background: #E68FC1;
+    background: white;
     height: 100%;
     width:100%;
     top:0;
@@ -187,15 +187,19 @@ a {
 }
 
 #headline {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 28px;
-    margin-left:20px;
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    color: #393636;
+    margin-left:auto;
     margin-top: 90px;
     justify-content: end;
 }
 
-#headline2 {
-    margin-left: 500px; 
+#sub-headline {
+    margin-left: auto; 
+    font-family: 'Noto Sans', sans-serif;
+    color: #393636;
+    font-size: 20px;
 }
 
 .section_wrapper {
@@ -203,6 +207,7 @@ a {
     width: 100%;
     margin-left:0;
     position: relative;
+    display: flex;
 }
 
 #tier2 {
